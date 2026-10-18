@@ -27,7 +27,8 @@ The dashboard is successfully deployed and can be accessed here:
 
 ## 🔌 Hardware Repository (IoT Node)
 *Note: The ESP32 micro-controller and C++ firmware code for the physical sensor node are maintained in a separate repository to ensure a clean architecture.*
-**(Tambahkan link URL repositori hardware C++ kamu di sini nanti)**
+
+**https://github.com/dlynndaaa/clairvo-esp32-node**
 
 ## 💻 Getting Started (Local Development)
 
