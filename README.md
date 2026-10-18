@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌬️ Clairvo Air Quality Monitor - Web Dashboard
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-First, run the development server:
+A full-stack web dashboard for the **Clairvo Smart Air Quality Monitoring System**. This application provides an interactive, real-time interface to monitor environmental data collected by IoT sensors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
+The dashboard is successfully deployed and can be accessed here:
+**[View Live Dashboard](https://clairvo-air-quality-monitor.vercel.app)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Dashboard Screenshot
+<img width="1920" height="912" alt="chrome_PouZDVnOk7" src="https://github.com/user-attachments/assets/cfe02ef9-e69e-47d9-8288-2d4bf24d1d3e" />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Key Features
+- **Real-Time Data Visualization:** Displays air quality sensor data instantly using Firebase.
+- **Responsive Design:** Optimized for both desktop and mobile views using Tailwind CSS.
+- **NoSQL Database Integration:** Securely fetches and stores sensor metrics using Firebase.
 
-## Learn More
+## 🛠️ Technologies Used
+- **Frontend:** Next.js (React), TypeScript, Tailwind CSS
+- **Database/Backend:** Firebase (NoSQL)
+- **Deployment:** Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## 🔌 Hardware Repository (IoT Node)
+*Note: The ESP32 micro-controller and C++ firmware code for the physical sensor node are maintained in a separate repository to ensure a clean architecture.*
+**(Tambahkan link URL repositori hardware C++ kamu di sini nanti)**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Getting Started (Local Development)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/dlynndaaa/clairvo-air-quality-monitor.git
+2. Install dependencies:
+   ```bash
+   npm install
+3. Set up your .env file with your Firebase configuration keys.
+4. Run the development server:
+   ```bash
+   npm run dev
+5. Open http://localhost:3000 in your browser to see the result.
