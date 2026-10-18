@@ -42,3 +42,9 @@ The dashboard is successfully deployed and can be accessed here:
    ```bash
    npm run dev
 5. Open http://localhost:3000 in your browser to see the result.
+
+## 👤 Author
+**Delinda Mega Putri**
+- 🎓 Informatics Engineering, Universitas Muhammadiyah Sukabumi
+- 💼 [LinkedIn](https://www.linkedin.com/in/dlnmgp)
+- 📧 Email: delindamegaputri123@gmail.com
